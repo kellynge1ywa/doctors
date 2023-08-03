@@ -1,0 +1,21 @@
+
+/* #home-page{
+    height: 79vh;
+} */
+
+#location{
+    width: 24px;
+    height: 24px;
+    fill: blue;
+    
+  }
+  #material{
+    fill: blue;
+  }
+
+  #appointment{
+    
+    
+    border-radius: 3px;
+
+  }

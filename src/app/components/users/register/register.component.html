@@ -1,0 +1,48 @@
+<div class=" h-[100%] bg-blue-200" >
+    <!-- <navbar></navbar> -->
+    <div class="ml-20">
+        <h1 class="cursor-pointer text-[30px] font-bold" (click)="goToHomePage()"><span class="text-blue-800">O</span>ctorly</h1>
+    </div>
+    
+    
+    <div class="flex flex-col  justify-center items-center pt-10">
+        
+        <div class="border-2 rounded-[1.4em]   w-[30%] p-3 mb-4  bg-slate-50">
+            <div>
+                <h2 class="text-center font-bold text-[1.4em]">Please Register here</h2>
+            </div>
+            <form  class="p-2">
+                <div class="py-2">
+                    <label class="py-1" for="">First Name </label> <br>
+                    <input class="w-[90%] outline-none border-b-2 p-2  mt-1" type="text" placeholder="Enter your first name">
+                </div>
+                <div class="py-2">
+                    <label class="py-1" for="">Last Name</label> <br>
+                    <input class="w-[90%] border-b-2 p-2 mt-1" type="text" placeholder="Enter your last name">
+                </div>
+                <div class="py-2">
+                    <label class="py-1" for="">Email</label> <br>
+                    <input class="w-[90%] border-b-2 p-2  mt-1" type="email" placeholder="Enter your email">
+                </div>
+                <div class="py-2">
+                    <label class="py-1" for="">Password</label> <br>
+                    <input class="w-[90%] border-b-2 p-2 mt-1" type="password" placeholder="Enter your password">
+                </div>
+                <div class="py-2">
+                    <label class="py-1" for="">Confirm password</label> <br>
+                    <input class="w-[90%] border-b-2 p-2 mt-1" type="password" placeholder="Confirm password">
+                </div>
+                <div class="flex justify-center items-center my-2">
+                    <button type="submit" class="w-[100%] py-2 rounded-md bg-slate-600" (click)="goToUserLoginPage()" >Register</button>
+
+                </div>
+                <div>
+                    <span>Have an account? <a class="text-red-600 cursor-pointer underline" (click)="goToLoginPage()">Login</a></span>
+                </div>
+                <div>
+                    <span>Doctor? <a class="underline text-red-600 cursor-pointer" (click)="goToDoctorLogin()">Doctor's page</a> </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

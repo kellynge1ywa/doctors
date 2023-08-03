@@ -1,0 +1,29 @@
+<div class="h-[73.5vh] bg-blue-200">
+    <navbar></navbar>
+    <div class="flex justify-center items-center pt-10">
+        <div class="bg-slate-50 w-[30%] h-[50vh] rounded-[1em] p-2">
+            <div>
+                <h2 class="text-center text-[20px]">Please Login</h2>
+            </div>
+            <div class="ml-3">
+                <form class="text-[1.2em]">
+                    <div class="py-2">
+                        <label class="py-2 ">Email Address</label><br>
+                        <input class="w-[90%] mt-2 p-2" type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="py-2">
+                        <label class="py-1" for="">Password</label><br>
+                        <input class="w-[90%] mt-2 p-2" type="password" placeholder="Enter your password">
+                    </div>
+                    <div class="float-right">
+                        <p class="text-xs">Forgot password?</p>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="bg-gray-700 rounded-md w-[100%] py-1" (click)="goToUserDashboard()">Login</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
